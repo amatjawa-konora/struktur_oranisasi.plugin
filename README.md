@@ -1,0 +1,1 @@
+# struktur_oranisasi.plugin
