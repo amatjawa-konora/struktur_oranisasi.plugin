@@ -11,7 +11,7 @@ tanpa perlu mengedit kode.
 3. Buka halaman `index.php?p=struktur_organisasi` atau menu admin
    **Keanggotaan → Struktur Organisasi**. Pada pembukaan pertama:
    - tabel `struktur_organisasi` & `struktur_organisasi_setting` dibuat otomatis,
-   - data struktur lama (Direktur s.d. Teknis IT) beserta fotonya langsung diisikan.
+   - Silakan tambahkan foto pejabat strukturalnya.
 
 Link di navbar OPAC tetap sama: `index.php?p=struktur_organisasi`.
 
