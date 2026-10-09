@@ -126,7 +126,7 @@ if (!function_exists('soSeed')) {
         };
 
         soSaveSetting('title', 'STRUKTUR ORGANISASI');
-        soSaveSetting('subtitle', 'PERPUSTAKAAN POLTEKKES KEMENKES MANADO');
+        soSaveSetting('subtitle', 'PERPUSTAKAAN SLiMS');
         soSaveSetting('logo_left', $copy('logo.png'));
         soSaveSetting('logo_right', $copy('blu.png'));
         soSaveSetting('accent', '#0ea5a4');
@@ -140,13 +140,13 @@ if (!function_exists('soSeed')) {
             )['insert_id'];
         };
 
-        $direktur = $insert(null, 'child', 'DIREKTUR', 'Dr. Hanung Prasetya', '197104041994031002', 'direktur.png', 1);
-        $wadir    = $insert($direktur, 'child', 'WAKIL DIREKTUR III', 'Dr. Juliet Tangka', '197207161992032000', 'wakil.png', 1);
-        $kepala   = $insert($wadir, 'child', 'KEPALA UNIT PERPUSTAKAAN', 'Rahmatullah Ade, S.Sos', '200005162025061003', '_new.png', 1);
-        $insert($kepala, 'side', 'TATA USAHA', 'Arnie Takendeng', '', 'tu.png', 1);
-        $insert($kepala, 'child', 'BIDANG SIRKULASI', 'Devilia Asni Toar', '', 'sirkulasi.png', 1);
-        $insert($kepala, 'child', 'BIDANG PELAYANAN', 'Adrian Tumiwa', '', 'pelayanan.png', 2);
-        $teknis   = $insert($kepala, 'child', 'TENAGA TEKNIS', 'Filesia L. Tehusallawany', '', 'teknis.png', 3);
-        $insert($teknis, 'child', 'TEKNIS IT', 'Christian Makatipu', '', 'it.png', 1);
+        $direktur = $insert(null, 'child', 'DIREKTUR', 'Direktur', 'xxxxxxxxxxxx', '', 1);
+        $wadir    = $insert($direktur, 'child', 'WAKIL DIREKTUR III', 'Wakil Direktur III', 'xxxxxxxxxxxx', '', 1);
+        $kepala   = $insert($wadir, 'child', 'KEPALA UNIT PERPUSTAKAAN', 'KEPALA', 'xxxxxxxxxxxx', '', 1);
+        $insert($kepala, 'side', 'TATA USAHA', 'Tata Usaha', '', '', 1);
+        $insert($kepala, 'child', 'BIDANG SIRKULASI', 'Sirkulasi', '', '', 1);
+        $insert($kepala, 'child', 'BIDANG PELAYANAN', 'Layanan', '', '', 2);
+        $teknis   = $insert($kepala, 'child', 'TENAGA TEKNIS', 'Teknis', '', '', 3);
+        $insert($teknis, 'child', 'TEKNIS IT', 'Tenaga IT', '', '', 1);
     }
 }
