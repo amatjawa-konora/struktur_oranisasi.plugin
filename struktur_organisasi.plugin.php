@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Struktur Organisasi
  * Plugin URI: -
- * Description: Menampilkan struktur organisasi perpustakaan. Data, foto & logo diatur dari Admin → Keanggotaan → Struktur Organisasi.
+ * Description: Menampilkan struktur organisasi perpustakaan di OPAC
  * Version: 2.0.0
  * Author: Rahmatullah Ade
  * Author URI: https://github.com/amatjawa-konora
