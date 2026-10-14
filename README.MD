@@ -11,7 +11,7 @@ tanpa perlu mengedit kode.
 3. Buka halaman `index.php?p=struktur_organisasi` atau menu admin
    **Keanggotaan → Struktur Organisasi**. Pada pembukaan pertama:
    - tabel `struktur_organisasi` & `struktur_organisasi_setting` dibuat otomatis,
-   - Silakan tambahkan foto pejabat strukturalnya.
+   - Silakan tambahkan pegawai strukturalnya.
 
 Link di navbar OPAC tetap sama: `index.php?p=struktur_organisasi`.
 
